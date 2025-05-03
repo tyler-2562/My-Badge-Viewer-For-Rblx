@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox Badge Viewer</title>
+    <style>
+        body {
+            background-color: #1e90ff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h1 {
+            color: yellow;
+            text-shadow: 2px 2px 4px black;
+            margin-bottom: 20px;
+        }
+
+        form {
+            margin-bottom: 30px;
+        }
+
+        input[type="text"] {
+            padding: 12px;
+            width: 250px;
+            border-radius: 5px;
+            border: none;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 12px 18px;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: yellow;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: orange;
+        }
+
+        #badges-container {
+            margin-top: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .badge {
+            display: inline-block;
+            width: 160px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .badge img {
+            width: 120px;
+            height: 120px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255,255,255,0.5);
+        }
+
+        .badge p {
+            margin: 8px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎖️ Roblox Badge Viewer</h1>
+
+    <form id="badge-form" onsubmit="event.preventDefault(); getBadges();">
+        <input type="text" id="user_id" name="user_id" placeholder="Enter Roblox User ID" required>
+        <button type="submit">Get Badges</button>
+    </form>
+
+    <div id="badges-container">
+        <p>Enter a Roblox User ID above and press "Get Badges".</p>
+
+    </div>
+    {% for item in data['data'] %}
+        <h2>{{ item['displayName'] }}</h2>
+        <p><strong>Description</strong> {{ item['displayDesscription'] }}</p>
+        <p><strong>Creator</strong> {{ item['creator']['name'] }}</p>
+        <p><strong>Awarded Count</strong> {{ item['statistics']['awardedCount'] }}</p>
+        <p><strong>Win rate</strong> {{ item['statistics']['winRatePercentage'] }}</p>
+    {% endfor %}
+</body>
+
+    <script>
+        function getBadges() {
+            const userId = document.getElementById("user_id").value;
+            const badgeContainer = document.getElementById("badges-container");
+
+            badgeContainer.innerHTML = "<p>Loading badges...</p>";
+
+            fetch('/badges', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: `user_id=${userId}`
+            })
+            .then(response => response.json())
+            .then(data => {
+                badgeContainer.innerHTML = '';
+
+                if (data.message) {
+                    badgeContainer.innerHTML = `<p>${data.message}</p>`;
+                } else {
+                    data.forEach(badge => {
+                        const badgeElement = document.createElement('div');
+                        badgeElement.classList.add('badge');
+                        badgeElement.innerHTML = `
+                            <img src="https://www.roblox.com/badge-thumbnail/image?badgeId=${badge.id}&w=150&h=150" alt="${badge.name}">
+                            <p><strong>${badge.displayName}</strong></p>
+                        `;
+                        badgeContainer.appendChild(badgeElement);
+                    });
+                }
+            })
+            .catch(error => {
+                console.error("Error fetching badges:", error);
+                badgeContainer.innerHTML = "<p>Failed to fetch badges. Please try again later.</p>";
+            });
+        }
+
+        fetch('test-badges.json')
+        .then(response => response.json())
+        .then(data => {
+            console.log(data); // your testing logic here
+            // You can now loop over data.data to display badges
+        });
+
+    </script>
+</body>
+</html>
