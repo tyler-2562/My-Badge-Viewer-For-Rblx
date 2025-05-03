@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox Games Hub</title>
+    <style>
+        body {
+            background-color: #1e90ff;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        h1 {
+            color: yellow;
+            text-shadow: 2px 2px 4px black;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            margin: 20px auto;
+            width: 60%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+        }
+        .game-image {
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+            display: block;
+            margin: 10px auto;
+        }
+        .game-text p {
+            font-size: large;
+        }
+        a {
+            display: block;
+            margin: 10px 0;
+            color: yellow;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: orange;
+        }
+        .badge-container {
+            background-color: rgba(255, 255, 255, 0.1);
+            margin: 30px auto;
+            padding: 20px;
+            border-radius: 10px;
+            width: 60%;
+        }
+        .badge-container img {
+            width: 80px;
+            border-radius: 8px;
+            margin: 10px;
+        }
+        input[type="text"] {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            width: 200px;
+            margin-top: 10px;
+        }
+        button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: yellow;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        button:hover {
+            background-color: orange;
+        }
+    </style>
+ 
+</head>
+<body>
+    <h1>🐟 Roblox Fisch Adventure! 🎮</h1>
+
+    <div class="container">
+        <div class="game-text">
+            <p>Explore the best Roblox game!</p>
+        </div>
+        <img class="game-image" src="{{ url_for('static', filename='fisch.jpg') }}" alt="Roblox Fisch">
+        <a href="https://www.roblox.com/games/16732694052/Fisch-2ND-SEA" target="_blank">🎮 The Link To The Game</a>
+        <a href="https://fischipedia.org/wiki/Fisch_Wiki" target="_blank">📖 The Wiki For Any More Info</a>
+    </div>
+
+    <h1>🍏 Roblox Blox Fruits Adventure! ⚔️</h1>
+
+    <div class="container">
+        <div class="game-text">
+            <p>Master the power of the fruits and become the strongest pirate!</p>
+        </div>
+        <img class="game-image" src="{{ url_for('static', filename='bloxfruits.jpg') }}" alt="Roblox Blox Fruits">
+        <a href="https://www.roblox.com/games/2753915549/Blox-Fruits" target="_blank">🎮 The Link To The Game</a>
+        <a href="https://blox-fruits.fandom.com/wiki/Blox_Fruits_Wiki" target="_blank">📖 The Wiki For Any More Info</a>
+    </div>
+
+    <h1>⚽ Roblox Blue Lock Rivals! 🥅</h1>
+
+    <div class="container">
+        <div class="game-text">
+            <p>Join the ultimate soccer showdown and rise to the top as a striker!</p>
+        </div>
+        <img class="game-image" src="{{ url_for('static', filename='bluelock.jpg') }}" alt="Roblox Blue Lock Rivals">
+        <a href="https://www.roblox.com/games/14817731726/Blue-Lock-Rivals" target="_blank">🎮 The Link To The Game</a>
+        <a href="https://blue-lock-rivals.fandom.com/wiki/Blue_Lock_Rivals_Wiki" target="_blank">📖 The Wiki For Any More Info</a>
+    </div>
+
+   <a href="{{ url_for('badgestest') }}"> Click Here To Check Badges Progress.</a>
+    <script>
+        // Function to load badges
+        function loadBadges(userId = '3819507457') {
+            const badgeContainer = document.getElementById('badges');
+            badgeContainer.innerHTML = '<p>Loading your badges...</p>';
+    
+            if (!userId) {
+                badgeContainer.innerHTML = '<p>Please enter a valid User ID.</p>';
+                return;
+            }
+    
+            const proxyUrl = 'https://corsproxy.io/?';
+            const robloxApiUrl = `https://badges.roblox.com/v1/users/${userId}/badges?limit=10&sortOrder=Asc`;
+    
+            fetch(proxyUrl + encodeURIComponent(robloxApiUrl))
+                .then(response => response.json())
+                .then(data => {
+                    badgeContainer.innerHTML = '';
+                    if (!data.data || data.data.length === 0) {
+                        badgeContainer.innerHTML = '<p>No badges found for this user.</p>';
+                        return;
+                    }
+    
+                    data.data.forEach(badge => {
+                        const badgeElement = document.createElement('div');
+                        badgeElement.innerHTML = `
+                            <img src="${badge.iconImageId}" alt="${badge.name}">
+                            <p><strong>${badge.displayName}</strong></p>
+                            <p>${badge.displayDescription}</p>
+                            <hr>
+                        `;
+                        badgeContainer.appendChild(badgeElement);
+                    });
+                })
+                .catch(error => {
+                    badgeContainer.innerHTML = '<p>Failed to load badges.</p>';
+                    console.error(error);
+                });
+        }
+    
+        // Load your badges on page load
+        window.onload = () => {
+            loadBadges();  // Default to your user ID 3819507457
+        };
+    
+        // Allow users to search for their own badges
+        document.querySelector('button').addEventListener('click', () => {
+            const userId = document.getElementById('userIdInput').value.trim();
+            loadBadges(userId);
+        });
+    </script>
+    
+</body>
+</html>

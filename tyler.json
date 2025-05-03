@@ -1,0 +1,656 @@
+{
+    "previousPageCursor": null,
+    "nextPageCursor": "eyJrZXkiOiIyMTI3NjI2OTEyOjYzNzk2ODMwMjc2NjU3NTMzMyIsInNvcnRPcmRlciI6IkFzYyIsInBhZ2luZ0RpcmVjdGlvbiI6IkZvcndhcmQiLCJwYWdlTnVtYmVyIjoyLCJkaXNjcmltaW5hdG9yIjoidXNlcklkOjM4MTk1MDc0NTciLCJjb3VudCI6MjV9CjdlZmQ1MDI4ZWVlYmJiYWZkYjc5M2U0MGM0ZDNlNzZjZjk0ZDgyOTkwOTM3NTYyZWJjYzFjNTI1ZTg5YThmNzY=",
+    "data": [
+      {
+        "creator": {
+          "id": 6235866,
+          "name": "05kz",
+          "type": "Group"
+        },
+        "id": 2124639609,
+        "name": "Welcome!",
+        "description": "You played the game!",
+        "displayName": "Welcome!",
+        "displayDescription": "You played the game!",
+        "enabled": true,
+        "iconImageId": 6196491460,
+        "displayIconImageId": 6196491460,
+        "awarder": {
+          "id": 5972698540,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 85256,
+          "awardedCount": 468624232,
+          "winRatePercentage": 1
+        },
+        "created": "2020-11-21T18:48:23.953Z",
+        "updated": "2024-11-19T19:27:07.726Z"
+      },
+      {
+        "creator": {
+          "id": 151848836,
+          "name": "haz3mn",
+          "type": "User"
+        },
+        "id": 2124935409,
+        "name": "Welcome!",
+        "description": "Join & play PLS DONATE for the first time!",
+        "displayName": "Welcome!",
+        "displayDescription": "Join & play PLS DONATE for the first time!",
+        "enabled": true,
+        "iconImageId": 15517697619,
+        "displayIconImageId": 15517697619,
+        "awarder": {
+          "id": 8737602449,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 252861,
+          "awardedCount": 221803920,
+          "winRatePercentage": 0.295
+        },
+        "created": "2022-02-17T16:49:27.427Z",
+        "updated": "2024-11-19T19:31:24.494Z"
+      },
+      {
+        "creator": {
+          "id": 9525960,
+          "name": "Airplane Interactive",
+          "type": "Group"
+        },
+        "id": 2124807236,
+        "name": "Welcome",
+        "description": "Thanks for playing!",
+        "displayName": "Welcome",
+        "displayDescription": "Thanks for playing!",
+        "enabled": true,
+        "iconImageId": 7277825741,
+        "displayIconImageId": 7277825741,
+        "awarder": {
+          "id": 6938764986,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 21378,
+          "awardedCount": 41791149,
+          "winRatePercentage": 0.865
+        },
+        "created": "2021-08-18T17:32:40.453Z",
+        "updated": "2024-11-19T19:29:33.152Z"
+      },
+      {
+        "creator": {
+          "id": 9642354,
+          "name": "Byteonix",
+          "type": "Group"
+        },
+        "id": 2124643245,
+        "name": "Welcome!",
+        "description": "You played Ragdoll Engine! Thanks for playing, we hope you had a great time!",
+        "displayName": "Welcome!",
+        "displayDescription": "You played Ragdoll Engine! Thanks for playing, we hope you had a great time!",
+        "enabled": true,
+        "iconImageId": 6860342905,
+        "displayIconImageId": 6860342905,
+        "awarder": {
+          "id": 5950733731,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 44705,
+          "awardedCount": 90409075,
+          "winRatePercentage": 0.543
+        },
+        "created": "2020-11-29T20:15:57.627Z",
+        "updated": "2025-01-25T20:24:11.066Z"
+      },
+      {
+        "creator": {
+          "id": 11413493,
+          "name": "Ragdoll Anti-Gravity Dev X SL Studios",
+          "type": "Group"
+        },
+        "id": 2124780376,
+        "name": "Ragdoll Anti-Gravity Engine | You Played!",
+        "description": "Thanks for playing Ragdoll Anti-Gravity Engine!\n\nPlay Here 👉 https://www.roblox.com/games/7068158737/Click-Here",
+        "displayName": "Ragdoll Anti-Gravity Engine | You Played!",
+        "displayDescription": "Thanks for playing Ragdoll Anti-Gravity Engine!\n\nPlay Here 👉 https://www.roblox.com/games/7068158737/Click-Here",
+        "enabled": true,
+        "iconImageId": 7108262619,
+        "displayIconImageId": 7108262619,
+        "awarder": {
+          "id": 7068158737,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 0,
+          "awardedCount": 11740573,
+          "winRatePercentage": 0
+        },
+        "created": "2021-07-09T22:20:57.343Z",
+        "updated": "2024-11-19T19:29:09.851Z"
+      },
+      {
+        "creator": {
+          "id": 11413493,
+          "name": "Ragdoll Anti-Gravity Dev X SL Studios",
+          "type": "Group"
+        },
+        "id": 2124796046,
+        "name": "Teleported",
+        "description": "",
+        "displayName": "Teleported",
+        "displayDescription": "",
+        "enabled": true,
+        "iconImageId": 9388782080,
+        "displayIconImageId": 9388782080,
+        "awarder": {
+          "id": 7068158737,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 0,
+          "awardedCount": 2361249,
+          "winRatePercentage": 0
+        },
+        "created": "2021-08-01T16:39:16.577Z",
+        "updated": "2024-11-19T19:29:23.41Z"
+      },
+      {
+        "creator": {
+          "id": 10709637,
+          "name": "BrickBattle Dev X SL Studios",
+          "type": "Group"
+        },
+        "id": 2124744617,
+        "name": "DoomSpire Modded [Walk on Walls!] | You Played!",
+        "description": "Thanks for playing DoomSpire Modded [Walk on Walls!]!\n\nPlay Here 👉 https://www.roblox.com/games/6798534966/Click-Here",
+        "displayName": "DoomSpire Modded [Walk on Walls!] | You Played!",
+        "displayDescription": "Thanks for playing DoomSpire Modded [Walk on Walls!]!\n\nPlay Here 👉 https://www.roblox.com/games/6798534966/Click-Here",
+        "enabled": true,
+        "iconImageId": 6816876629,
+        "displayIconImageId": 6816876629,
+        "awarder": {
+          "id": 6798534966,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 9082,
+          "awardedCount": 56802477,
+          "winRatePercentage": 1
+        },
+        "created": "2021-05-14T21:56:07.427Z",
+        "updated": "2024-11-19T19:28:38.68Z"
+      },
+      {
+        "creator": {
+          "id": 55301719,
+          "name": "vegeta1833",
+          "type": "User"
+        },
+        "id": 626585677,
+        "name": "Welcome!",
+        "description": "You visited for the First time!",
+        "displayName": "Welcome!",
+        "displayDescription": "You visited for the First time!",
+        "enabled": true,
+        "iconImageId": 1507901036,
+        "displayIconImageId": 1507901036,
+        "awarder": {
+          "id": 554588260,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 3547,
+          "awardedCount": 10688747,
+          "winRatePercentage": 0.603
+        },
+        "created": "2017-01-25T00:27:22.973Z",
+        "updated": "2024-11-19T19:23:11.543Z"
+      },
+      {
+        "creator": {
+          "id": 1521521600,
+          "name": "Ejdero_42",
+          "type": "User"
+        },
+        "id": 2125707640,
+        "name": "Welcome!",
+        "description": "You have played GTA: London for the first time!",
+        "displayName": "Welcome!",
+        "displayDescription": "You have played GTA: London for the first time!",
+        "enabled": true,
+        "iconImageId": 11980292776,
+        "displayIconImageId": 11980292776,
+        "awarder": {
+          "id": 8634358114,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 0,
+          "awardedCount": 1689740,
+          "winRatePercentage": 0
+        },
+        "created": "2022-03-27T10:21:15.127Z",
+        "updated": "2024-11-19T19:42:35.119Z"
+      },
+      {
+        "creator": {
+          "id": 10249687,
+          "name": "Royale Games.",
+          "type": "Group"
+        },
+        "id": 2124935285,
+        "name": "Welcome!",
+        "description": "Thanks for playing!",
+        "displayName": "Welcome!",
+        "displayDescription": "Thanks for playing!",
+        "enabled": true,
+        "iconImageId": 12534115798,
+        "displayIconImageId": 12534115798,
+        "awarder": {
+          "id": 6652551895,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 76762,
+          "awardedCount": 37335582,
+          "winRatePercentage": 1
+        },
+        "created": "2022-02-17T13:09:29.397Z",
+        "updated": "2024-11-19T19:31:24.393Z"
+      },
+      {
+        "creator": {
+          "id": 15011269,
+          "name": "Ride a Box Fans!",
+          "type": "Group"
+        },
+        "id": 2125338369,
+        "name": "Welcome!",
+        "description": "Thank you for playing! Hope you enjoy.\n\nSimply earn this badge by joining the game.",
+        "displayName": "Welcome!",
+        "displayDescription": "Thank you for playing! Hope you enjoy.\n\nSimply earn this badge by joining the game.",
+        "enabled": true,
+        "iconImageId": 17785391209,
+        "displayIconImageId": 17785391209,
+        "awarder": {
+          "id": 6999691637,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 836,
+          "awardedCount": 52858477,
+          "winRatePercentage": 1
+        },
+        "created": "2022-03-11T04:17:45.907Z",
+        "updated": "2024-11-19T19:37:15.107Z"
+      },
+      {
+        "creator": {
+          "id": 7947655,
+          "name": "Wild Atelier",
+          "type": "Group"
+        },
+        "id": 2125062393,
+        "name": "Welcome to Mega Mansion Tycoon!",
+        "description": "Welcome to town! You've played Mega Mansion Tycoon",
+        "displayName": "Welcome to Mega Mansion Tycoon!",
+        "displayDescription": "Welcome to town! You've played Mega Mansion Tycoon",
+        "enabled": true,
+        "iconImageId": 8982516313,
+        "displayIconImageId": 8982516313,
+        "awarder": {
+          "id": 8328351891,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 69774,
+          "awardedCount": 180147455,
+          "winRatePercentage": 0.594
+        },
+        "created": "2022-03-01T23:59:08.213Z",
+        "updated": "2024-11-19T19:33:15.184Z"
+      },
+      {
+        "creator": {
+          "id": 8536443,
+          "name": "NKM9",
+          "type": "User"
+        },
+        "id": 2124819272,
+        "name": "Survived a Disaster",
+        "description": "Congratulations, you survived your first disaster!",
+        "displayName": "Survived a Disaster",
+        "displayDescription": "Congratulations, you survived your first disaster!",
+        "enabled": true,
+        "iconImageId": 7403251320,
+        "displayIconImageId": 7403251320,
+        "awarder": {
+          "id": 1994279859,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 3878,
+          "awardedCount": 3606104,
+          "winRatePercentage": 0.788
+        },
+        "created": "2021-09-04T14:19:42.733Z",
+        "updated": "2024-11-19T19:29:43.553Z"
+      },
+      {
+        "creator": {
+          "id": 8536443,
+          "name": "NKM9",
+          "type": "User"
+        },
+        "id": 2124940934,
+        "name": "Survive on Blox Mall",
+        "description": "Survive on the map Blox Mall to get this badge.",
+        "displayName": "Survive on Blox Mall",
+        "displayDescription": "Survive on the map Blox Mall to get this badge.",
+        "enabled": true,
+        "iconImageId": 8886939140,
+        "displayIconImageId": 8886939140,
+        "awarder": {
+          "id": 1994279859,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 532,
+          "awardedCount": 596242,
+          "winRatePercentage": 0.108
+        },
+        "created": "2022-02-20T20:59:51.187Z",
+        "updated": "2024-11-19T19:31:29.219Z"
+      },
+      {
+        "creator": {
+          "id": 8536443,
+          "name": "NKM9",
+          "type": "User"
+        },
+        "id": 2124940932,
+        "name": "Survive on Safety Second",
+        "description": "Survive on the map Safety Second to get this badge.",
+        "displayName": "Survive on Safety Second",
+        "displayDescription": "Survive on the map Safety Second to get this badge.",
+        "enabled": true,
+        "iconImageId": 8886935527,
+        "displayIconImageId": 8886935527,
+        "awarder": {
+          "id": 1994279859,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 311,
+          "awardedCount": 317936,
+          "winRatePercentage": 0.063
+        },
+        "created": "2022-02-20T20:59:23.97Z",
+        "updated": "2024-11-19T19:31:29.216Z"
+      },
+      {
+        "creator": {
+          "id": 12956979,
+          "name": "Playtad",
+          "type": "Group"
+        },
+        "id": 2124939288,
+        "name": "You played!",
+        "description": "You played!",
+        "displayName": "You played!",
+        "displayDescription": "You played!",
+        "enabled": true,
+        "iconImageId": 9655244903,
+        "displayIconImageId": 9655244903,
+        "awarder": {
+          "id": 8846144215,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 52273,
+          "awardedCount": 121788069,
+          "winRatePercentage": 1
+        },
+        "created": "2022-02-19T13:14:23.153Z",
+        "updated": "2024-11-19T19:31:27.804Z"
+      },
+      {
+        "creator": {
+          "id": 3763098,
+          "name": "Marizma Games",
+          "type": "Group"
+        },
+        "id": 2126474391,
+        "name": "Welcome to Maple Hospital!!",
+        "description": "Thank you for choosing Maple Hospital!!",
+        "displayName": "Welcome to Maple Hospital!!",
+        "displayDescription": "Thank you for choosing Maple Hospital!!",
+        "enabled": true,
+        "iconImageId": 109174856003115,
+        "displayIconImageId": 109174856003115,
+        "awarder": {
+          "id": 8704997000,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 95376,
+          "awardedCount": 152315558,
+          "winRatePercentage": 0.489
+        },
+        "created": "2022-05-21T20:28:29.78Z",
+        "updated": "2024-11-19T19:53:48.609Z"
+      },
+      {
+        "creator": {
+          "id": 3763098,
+          "name": "Marizma Games",
+          "type": "Group"
+        },
+        "id": 2126893410,
+        "name": "Doctor Up",
+        "description": "Get the Fit. ",
+        "displayName": "Doctor Up",
+        "displayDescription": "Get the Fit. ",
+        "enabled": true,
+        "iconImageId": 9949024849,
+        "displayIconImageId": 9949024849,
+        "awarder": {
+          "id": 8704997000,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 19173,
+          "awardedCount": 40906132,
+          "winRatePercentage": 0.098
+        },
+        "created": "2022-06-18T13:30:59.88Z",
+        "updated": "2024-11-19T19:59:59.947Z"
+      },
+      {
+        "creator": {
+          "id": 15433712,
+          "name": "Ro-meet",
+          "type": "Group"
+        },
+        "id": 2124748929,
+        "name": "Welcome to Ro-meet!",
+        "description": "You played Ro-meet. Thanks!",
+        "displayName": "Welcome to Ro-meet!",
+        "displayDescription": "You played Ro-meet. Thanks!",
+        "enabled": true,
+        "iconImageId": 8273821761,
+        "displayIconImageId": 8273821761,
+        "awarder": {
+          "id": 6062977619,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 17762,
+          "awardedCount": 44807870,
+          "winRatePercentage": 0.467
+        },
+        "created": "2021-05-21T12:28:03.663Z",
+        "updated": "2024-11-19T19:28:42.408Z"
+      },
+      {
+        "creator": {
+          "id": 8731481,
+          "name": "Names Are Not Important",
+          "type": "Group"
+        },
+        "id": 2124760261,
+        "name": "Groovy, I'm A Ro-Zoomer",
+        "description": "You can call me a Ro-Zoomer now.",
+        "displayName": "Groovy, I'm A Ro-Zoomer",
+        "displayDescription": "You can call me a Ro-Zoomer now.",
+        "enabled": true,
+        "iconImageId": 6922646986,
+        "displayIconImageId": 6922646986,
+        "awarder": {
+          "id": 6297462228,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 375,
+          "awardedCount": 1218313,
+          "winRatePercentage": 1
+        },
+        "created": "2021-06-07T13:57:00.6Z",
+        "updated": "2024-11-19T19:28:52.365Z"
+      },
+      {
+        "creator": {
+          "id": 2807508,
+          "name": ":( Studio",
+          "type": "Group"
+        },
+        "id": 2124876031,
+        "name": "Welcome to Parkour Obby",
+        "description": "https://www.roblox.com/games/7981138297/Parkour-Obby",
+        "displayName": "Welcome to Parkour Obby",
+        "displayDescription": "https://www.roblox.com/games/7981138297/Parkour-Obby",
+        "enabled": true,
+        "iconImageId": 10934147488,
+        "displayIconImageId": 10934147488,
+        "awarder": {
+          "id": 7981138297,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 6626,
+          "awardedCount": 29866874,
+          "winRatePercentage": 1
+        },
+        "created": "2021-12-08T21:12:10.48Z",
+        "updated": "2024-11-19T19:30:32.844Z"
+      },
+      {
+        "creator": {
+          "id": 3366985,
+          "name": "Beast Games Inc",
+          "type": "Group"
+        },
+        "id": 2126799786,
+        "name": "Welcome",
+        "description": "Welcome to the Chocolate Factory, lucky contestant!",
+        "displayName": "Welcome",
+        "displayDescription": "Welcome to the Chocolate Factory, lucky contestant!",
+        "enabled": true,
+        "iconImageId": 9882383062,
+        "displayIconImageId": 9882383062,
+        "awarder": {
+          "id": 8680613812,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 2254,
+          "awardedCount": 13592043,
+          "winRatePercentage": 1
+        },
+        "created": "2022-06-11T18:33:04.517Z",
+        "updated": "2024-11-19T19:58:36.757Z"
+      },
+      {
+        "creator": {
+          "id": 3366985,
+          "name": "Beast Games Inc",
+          "type": "Group"
+        },
+        "id": 2127626903,
+        "name": "Welcome!",
+        "description": "Welcome to MrBeast Tycoon!",
+        "displayName": "Welcome!",
+        "displayDescription": "Welcome to MrBeast Tycoon!",
+        "enabled": true,
+        "iconImageId": 10361696131,
+        "displayIconImageId": 10361696131,
+        "awarder": {
+          "id": 10163702014,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 614,
+          "awardedCount": 4995740,
+          "winRatePercentage": 1
+        },
+        "created": "2022-07-26T03:55:52.413Z",
+        "updated": "2024-11-21T17:26:41.373Z"
+      },
+      {
+        "creator": {
+          "id": 3366985,
+          "name": "Beast Games Inc",
+          "type": "Group"
+        },
+        "id": 2127626909,
+        "name": "MrBeast Burgers Unlocked",
+        "description": "You unlocked MrBeast Burgers! Time to start cooking!",
+        "displayName": "MrBeast Burgers Unlocked",
+        "displayDescription": "You unlocked MrBeast Burgers! Time to start cooking!",
+        "enabled": true,
+        "iconImageId": 10361699678,
+        "displayIconImageId": 10361699678,
+        "awarder": {
+          "id": 10163702014,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 178,
+          "awardedCount": 2203815,
+          "winRatePercentage": 0.636
+        },
+        "created": "2022-07-26T03:56:31.01Z",
+        "updated": "2024-11-21T17:26:41.395Z"
+      },
+      {
+        "creator": {
+          "id": 3366985,
+          "name": "Beast Games Inc",
+          "type": "Group"
+        },
+        "id": 2127626912,
+        "name": "MrBeast Merch Unlocked",
+        "description": "You unlocked MrBeast Merch Factory! Time to start selling MrBeast Merch!",
+        "displayName": "MrBeast Merch Unlocked",
+        "displayDescription": "You unlocked MrBeast Merch Factory! Time to start selling MrBeast Merch!",
+        "enabled": true,
+        "iconImageId": 10361702719,
+        "displayIconImageId": 10361702719,
+        "awarder": {
+          "id": 10163702014,
+          "type": "Place"
+        },
+        "statistics": {
+          "pastDayAwardedCount": 107,
+          "awardedCount": 1448863,
+          "winRatePercentage": 0.382
+        },
+        "created": "2022-07-26T03:57:06.853Z",
+        "updated": "2024-11-21T17:26:41.402Z"
+      }
+    ]
+  }
